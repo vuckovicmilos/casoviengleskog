@@ -1,0 +1,343 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+ 
+
+body{
+	font-family: 'Arial Black', sans-serif;
+	background: Moccasin; 
+}
+
+header{background: white;}
+
+
+#wrapp {
+	width: 90%;
+	margin: 0 auto;
+    position: relative;
+
+}
+header img {
+
+	float: left;
+}
+
+header h1 {
+
+	float: right;
+	font-size: 4em;
+	margin-right: 200px;
+	margin-top: 20px;
+}
+
+select{
+    display: none;
+}
+
+
+  #onlajn1 {
+ width: 500px;
+    height: 600px;
+	  margin-left: -30px;
+}
+
+.clr {
+	clear: both;
+}
+
+nav ul{
+display: inline-block;
+}
+
+nav ul li{ 
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 200px;
+	font-size: 1.8em; 
+    
+}
+
+nav ul li:first-child{
+	margin-left: 30px;
+	}
+
+nav ul li:hover{
+	color: orange;
+	cursor: pointer;
+
+}
+
+article{
+	padding: 30px;
+
+}
+
+article img{
+
+	float: left;
+	margin-right: 50px;
+}
+
+ 
+
+#slika1{
+	width: 300px;
+	height: 250px;
+}
+
+  #slika2{ width: 500px;
+                height: 800px;
+    }
+
+
+#deca1 { 
+    width: 700px;
+    height: 900px;
+}
+
+#okvir {
+    width: 300px;
+    height: 800px;
+    
+    
+}
+
+.sokvir {
+    float: left;
+    width: 300px;
+    height: 200px; }
+    
+    
+    float:left}
+
+ 
+
+article h2{
+	text-align: center;
+	font-size: 2em;
+	color: gold; 
+}
+
+  #bio { text-align: center;
+        text-align: left;
+	font-size: 55px;
+	color: black; }
+
+.biografija { 
+font-size: 60px;}
+
+.sbiografija { 
+    font-size: 30px;
+}
+
+article p{
+	padding: 20px;
+	font-family: Tahoma;
+	font-size: 1.2em;
+	color: black;
+}
+
+.price{
+	font-size: 4em;
+	text-align: center;
+}
+
+.price span{
+	font-size: 1.8em;
+	color: green;
+}
+
+#diploma {
+    
+    width: 1000px;
+    height: 900px;
+}
+
+#faks {
+    width: 700px;
+    height: 800px;
+}
+
+
+#test {
+    width: 700px;
+    height: 840px;
+}
+
+
+#testovi {
+    
+    font-size: 45px;
+    margin-left: 1000px;
+}
+
+.stestovi {
+  
+}
+#kontakt p{
+    
+    text-align: center;
+    font-size: 3em;
+}
+
+.hr{
+	width: 85%;
+	border-bottom: 1px solid red;
+	box-shadow: 5px 5px 5px gray;
+	margin: 50px auto;
+}
+
+footer{
+	height: 120px;
+	background: #2F4F4F; 
+	padding-top: 30px;
+}
+
+footer h1{
+	text-align: center;
+	color: gold;
+	font-size: 2.2em;
+}
+
+#video {margin-left: 800px;}
+
+#videodeca {width: 650px;
+            height: 650px;
+	    margin-left: -315px;
+
+}
+
+
+a{ text-decoration: none;}
+
+@media(max-width:700px){
+    body{
+        width: 100%;
+        
+    }
+    
+    #wrapp{
+        width: 100%;
+    }
+   
+    .email{
+        display: none;
+    }
+    
+    header{
+        height: 288px;
+        background: white url('../img/FO-1.jpg')
+      
+        background-size: 350px 350px;
+    }
+    
+    nav ul{
+        display: inline;
+    }
+    
+    article{
+        widows: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    article img{
+        margin-left: 0px;
+        width:100%;
+        height: 100%;
+		    margin-top: 370px;
+    }
+    
+    select{
+        display: block;
+        width: 100%;
+        background-color: beige;
+        font-size: 30px;
+        
+    }
+    
+    #video {
+        margin-left: 0px;
+    }
+    
+	.libio{ 
+	margin-left: -30px;
+
+	color: aqua;}
+	
+	.lion {
+		color: aquamarine;
+	}
+	
+	.lideca {
+		color: chartreuse;
+		
+	}
+	
+	.litest {
+		color: darkcyan
+	}
+	
+	.likont{
+		
+		color: darkmagenta
+	}
+	
+	nav {margin-top: 30px;}
+	
+ 
+	li {margin-top: 10px;
+	}
+
+	li:first-child{
+		margin-top: 0;
+	}
+	
+	#onlajn1 {
+		width: 465px;
+		height: 320px;
+	}
+	
+		#diploma {
+		width: 435px;
+		height: 320px;
+			    margin-top: 30px;
+	}
+	
+	
+	#deca1{
+		    width: 437px;
+    height: 500px;
+		
+	}
+	
+	#videodeca {
+		    width: 400px;
+    height: 332px;
+    margin-left: 20px;
+		
+	}
+	
+	
+	#test {
+    width: 440px;
+    height: 600px;
+}
+	
+	.biografija {
+    font-size: 53px;
+}
+	
+	
+	#testovi {
+    font-size: 1.2em;
+    margin-left: 0;
+}
+}
+
+
+
