@@ -214,7 +214,7 @@ footer h1{
 
 a{ text-decoration: none;}
 
-@mediaonlyscreenand(max-width: 800px)
+@media(max-width: 700px)
     body{
         width: 100%;
         
